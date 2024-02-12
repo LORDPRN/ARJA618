@@ -13,103 +13,44 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/front-styles.css">
+    <!--scripts-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
 
     <title>ARJA Ingeniería e Hidrógeno</title>
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
+    <!-- HEADER -->
+    <header>
+        <a href="#" class="brand"><img src="img/arjalogo.png" class="arjalogo">Arja Ingeniería</a>
+        <div class="menu-btn">
 
-
-    <!-- TOP NAV -->
-    <div class="top-nav" id="home">
-        <div class="container">
-            <div class="row justify-content-between">
-                <div class="col-auto">
-                    <p> <i class='bx bxs-envelope'></i> info@example.com</p>
-                    <p> <i class='bx bxs-phone-call'></i> 123 456-7890</p>
-                </div>
-                <div class="col-auto social-icons">
-                    <a href="#"><i class='bx bxl-facebook'></i></a>
-                    <a href="#"><i class='bx bxl-twitter'></i></a>
-                    <a href="#"><i class='bx bxl-instagram'></i></a>
-                    <a href="#"><i class='bx bxl-pinterest'></i></a>
-                </div>
+        </div>
+        <div class="navigation">
+            <div class="navigation-items">
+                <a href="#">Inicio</a>
+                <a href="#">Quiénes somos</a>
+                <a href="#">Portafolio</a>
+                <a href="#">Equipo</a>
             </div>
         </div>
-    </div>
-
-    <!-- BOTTOM NAV -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">ARJA Ingeniería e Hidrogeno<span class="dot">.</span></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#home">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">Acerca de Arja</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#team">Equipo</a>
-                    </li>
-                    <!--
-                    <li class="nav-item">
-                        <a class="nav-link" href="#reviews">Reviews</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#blog">Blog</a>
-                    </li>
-                    -->
-                </ul>
-                <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                    class="btn btn-brand ms-lg-3">Contact</a>
-            </div>
+    </header>
+    <!-- HERO -->
+    <section class="home">
+        <video class="video-slide" src="video/herobasic.mp4" autoplay muted loop></video>
+        <div class="content">
+            <h1>Hidrógeno <h1><span class="green-text">VERDE</span></h1></h1>
+            <p>"Impulsa tu navegación hacia un futuro sostenible y eficiente; usando menos combustible y más rendimiento"</p>
         </div>
-    </nav>
-
-    <!-- SLIDER -->
-    <div class="owl-carousel owl-theme hero-slider">
-        <div class="slide slide1">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 text-center text-white">
-                        <h1 class="display-3 my-4">Hidrógeno Verde</h1>
-                        <h4 class="text-white text-uppercase">
-                          El hidrógeno verde es una forma de energía limpia y renovable que se produce a 
-                          partir de la electrólisis del agua utilizando energía renovable.
-                        </h4>
-                        <!--
-                        <a href="#" class="btn btn-brand">Get Started</a>
-                        <a href="#" class="btn btn-outline-light ms-3">Our work</a>
-                        -->
-                    </div>
-                </div>
-            </div>
+        <div class="media-icons">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
         </div>
-        <div class="slide slide2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-lg-10 offset-lg-1 text-white">
-                        <h1 class="display-3 my-4">Hidrógeno Verde</h1>
-                        <h4 class="text-white text-uppercase">
-                          El hidrógeno es una opción prometedora para reducir las emisiones de carbono y 
-                          lograr un futuro más sostenible.
-                        </h4>
-
-                        <!--
-                        <a href="#" class="btn btn-brand">Get Started</a>
-                        <a href="#" class="btn btn-outline-light ms-3">Our work</a>
-                        -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    </section>
 
     <!-- ABOUT -->
     <section id="about">
@@ -408,7 +349,8 @@
                                 <form class="p-lg-5 col-12 row g-3">
                                     <div>
                                         <h1>Contactenos</h1>
-                                        <p>Envíanos tus dudas e inquierudes y nos pondremos en contacto con ustedes tan pronto sea posible.</p>
+                                        <p>Envíanos tus dudas e inquierudes y nos pondremos en contacto con ustedes tan
+                                            pronto sea posible.</p>
                                     </div>
                                     <div class="col-lg-6">
                                         <label for="userName" class="form-label">Nombres</label>
@@ -426,7 +368,8 @@
                                             id="userName" aria-describedby="emailHelp">
                                     </div>
                                     <div class="col-12">
-                                        <label for="exampleInputEmail1" class="form-label">Indicanos tus dudas e inquietudes.</label>
+                                        <label for="exampleInputEmail1" class="form-label">Indicanos tus dudas e
+                                            inquietudes.</label>
                                         <textarea name="" placeholder="This is looking great and nice."
                                             class="form-control" id="" rows="4"></textarea>
                                     </div>
@@ -444,17 +387,7 @@
         </div>
     </div>
 
-
-
-
-
-
-
-
-
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/front-script.js"></script>
     <script src="js/app.js"></script>
 </body>
 
