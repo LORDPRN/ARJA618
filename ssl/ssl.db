@@ -1,0 +1,89 @@
+--- 
+files: 
+  certificate: 
+    _wildcard__arjaingenieria_com_d543b_a3ff9_1710777762_904c37e52a8b530903c06dca898bce38: 
+      created: '1703005363'
+      domains: 
+        - "*.arjaingenieria.com"
+        - arjaingenieria.com
+      ecdsa_curve_name: ~
+      ecdsa_public: ~
+      friendly_name: Cert for “arjaingenieria.com” 1703005363.0
+      id: _wildcard__arjaingenieria_com_d543b_a3ff9_1710777762_904c37e52a8b530903c06dca898bce38
+      is_self_signed: 0
+      issuer.commonName: R3
+      issuer.organizationName: Let's Encrypt
+      key_algorithm: rsaEncryption
+      modulus: d543b45917fe2b7ecb8cbad92efb5eb66be0da5f1f5241a5659bad4094f877a8bdbe0a8bd42d349cfcd4d2a70dfcfd4e8cfc3be05f5ba135e688ede2914150c2cab4c9b57a975419ce04c606dda6c4946a92fc9dc5cbe69ba802734efdf438a5024f29f0ba9b35df89fd0bc4ab5143a9fb0c5877d7dffd310c7ef637c13cf7ba39f87b28e670008b4038629b195df91951739c2bf1f23e7733006615ca309c840811426c0c08bfd456b2bc3071d1362d3961281137c31f935fd1aee147179a01109173345ff159861fce77a2caa5997e72fca2c502b9d54c4632b22737ba761254dff18f9c96f9f98e63bfca5b595143f853dcf1363b48fe1ac756a54dea3ff9
+      modulus_length: 2048
+      not_after: '1710777762'
+      not_before: '1703001763'
+      serial: 035aa9a016ef8fad1723a9c7bd5197dda741
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: "*.arjaingenieria.com"
+      validation_type: dv
+    arjaingenieria_com_cc000_2ce5f_1734540625_f0f34abbce691943f5577bb71bff1dac: 
+      created: '1703004625'
+      domains: 
+        - arjaingenieria.com
+        - mail.arjaingenieria.com
+        - www.arjaingenieria.com
+      ecdsa_curve_name: ~
+      ecdsa_public: ~
+      friendly_name: Cert for “arjaingenieria.com”
+      id: arjaingenieria_com_cc000_2ce5f_1734540625_f0f34abbce691943f5577bb71bff1dac
+      is_self_signed: 1
+      issuer.commonName: arjaingenieria.com
+      issuer.organizationName: ~
+      key_algorithm: rsaEncryption
+      modulus: cc000b96a27b70b377c3048ef62d3e406141e1675a5965b47ef0fad0b0d7a4a23792f4b00154642d2d21990ca40c2989f39071290b8d499bdb57c109cf0919deb03b3e845c60313d3e946fbbbd11ef10a196212f2d9a580bd4c9215e4a9fed4a5ec8df1b3668ea207f02cd8d451a5584138357eb86aae99b1c01881bd8895041d85bbc1c0c1dcbc3ee98bb1db13fce04c91443692eab200a4e76527b9f886490f2c82e9bca5d945150f33646b91d4838d4f9a565c58adff2f290e2a8acea29347901c07505a20de156f3eca8d49303d91bd023445549e29fe28c82e0c368e042986d63ee47dfb9f8a7ce8823b4141c7848f30e7946464042ed61807bfb62ce5f
+      modulus_length: 2048
+      not_after: '1734540625'
+      not_before: '1703004625'
+      serial: 018ec86faa
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: arjaingenieria.com
+      validation_type: ~
+  key: 
+    cc000_2ce5f_15dac1cdead42dfc8b46ec19d580d4d1: 
+      created: '1703004625'
+      ecdsa_curve_name: ~
+      ecdsa_public: ~
+      friendly_name: Key for “arjaingenieria.com”
+      id: cc000_2ce5f_15dac1cdead42dfc8b46ec19d580d4d1
+      key_algorithm: rsaEncryption
+      modulus: cc000b96a27b70b377c3048ef62d3e406141e1675a5965b47ef0fad0b0d7a4a23792f4b00154642d2d21990ca40c2989f39071290b8d499bdb57c109cf0919deb03b3e845c60313d3e946fbbbd11ef10a196212f2d9a580bd4c9215e4a9fed4a5ec8df1b3668ea207f02cd8d451a5584138357eb86aae99b1c01881bd8895041d85bbc1c0c1dcbc3ee98bb1db13fce04c91443692eab200a4e76527b9f886490f2c82e9bca5d945150f33646b91d4838d4f9a565c58adff2f290e2a8acea29347901c07505a20de156f3eca8d49303d91bd023445549e29fe28c82e0c368e042986d63ee47dfb9f8a7ce8823b4141c7848f30e7946464042ed61807bfb62ce5f
+      modulus_length: 2048
+    d543b_a3ff9_06e335d63360decd1e53525c0cf269c0: 
+      created: '1703005363'
+      ecdsa_curve_name: ~
+      ecdsa_public: ~
+      friendly_name: Key for “arjaingenieria.com” 1703005363.0
+      id: d543b_a3ff9_06e335d63360decd1e53525c0cf269c0
+      key_algorithm: rsaEncryption
+      modulus: d543b45917fe2b7ecb8cbad92efb5eb66be0da5f1f5241a5659bad4094f877a8bdbe0a8bd42d349cfcd4d2a70dfcfd4e8cfc3be05f5ba135e688ede2914150c2cab4c9b57a975419ce04c606dda6c4946a92fc9dc5cbe69ba802734efdf438a5024f29f0ba9b35df89fd0bc4ab5143a9fb0c5877d7dffd310c7ef637c13cf7ba39f87b28e670008b4038629b195df91951739c2bf1f23e7733006615ca309c840811426c0c08bfd456b2bc3071d1362d3961281137c31f935fd1aee147179a01109173345ff159861fce77a2caa5997e72fca2c502b9d54c4632b22737ba761254dff18f9c96f9f98e63bfca5b595143f853dcf1363b48fe1ac756a54dea3ff9
+      modulus_length: 2048
+indexes: 
+  certificate: 
+    modulus: 
+      cc000b96a27b70b377c3048ef62d3e406141e1675a5965b47ef0fad0b0d7a4a23792f4b00154642d2d21990ca40c2989f39071290b8d499bdb57c109cf0919deb03b3e845c60313d3e946fbbbd11ef10a196212f2d9a580bd4c9215e4a9fed4a5ec8df1b3668ea207f02cd8d451a5584138357eb86aae99b1c01881bd8895041d85bbc1c0c1dcbc3ee98bb1db13fce04c91443692eab200a4e76527b9f886490f2c82e9bca5d945150f33646b91d4838d4f9a565c58adff2f290e2a8acea29347901c07505a20de156f3eca8d49303d91bd023445549e29fe28c82e0c368e042986d63ee47dfb9f8a7ce8823b4141c7848f30e7946464042ed61807bfb62ce5f: 
+        arjaingenieria_com_cc000_2ce5f_1734540625_f0f34abbce691943f5577bb71bff1dac: ~
+      d543b45917fe2b7ecb8cbad92efb5eb66be0da5f1f5241a5659bad4094f877a8bdbe0a8bd42d349cfcd4d2a70dfcfd4e8cfc3be05f5ba135e688ede2914150c2cab4c9b57a975419ce04c606dda6c4946a92fc9dc5cbe69ba802734efdf438a5024f29f0ba9b35df89fd0bc4ab5143a9fb0c5877d7dffd310c7ef637c13cf7ba39f87b28e670008b4038629b195df91951739c2bf1f23e7733006615ca309c840811426c0c08bfd456b2bc3071d1362d3961281137c31f935fd1aee147179a01109173345ff159861fce77a2caa5997e72fca2c502b9d54c4632b22737ba761254dff18f9c96f9f98e63bfca5b595143f853dcf1363b48fe1ac756a54dea3ff9: 
+        _wildcard__arjaingenieria_com_d543b_a3ff9_1710777762_904c37e52a8b530903c06dca898bce38: ~
+    subject.commonName: 
+      "*.arjaingenieria.com": 
+        _wildcard__arjaingenieria_com_d543b_a3ff9_1710777762_904c37e52a8b530903c06dca898bce38: ~
+      arjaingenieria.com: 
+        arjaingenieria_com_cc000_2ce5f_1734540625_f0f34abbce691943f5577bb71bff1dac: ~
+uniques: 
+  certificate: 
+    friendly_name: 
+      Cert for “arjaingenieria.com”: arjaingenieria_com_cc000_2ce5f_1734540625_f0f34abbce691943f5577bb71bff1dac
+      Cert for “arjaingenieria.com” 1703005363.0: _wildcard__arjaingenieria_com_d543b_a3ff9_1710777762_904c37e52a8b530903c06dca898bce38
+  key: 
+    friendly_name: 
+      Key for “arjaingenieria.com”: cc000_2ce5f_15dac1cdead42dfc8b46ec19d580d4d1
+      Key for “arjaingenieria.com” 1703005363.0: d543b_a3ff9_06e335d63360decd1e53525c0cf269c0
+    modulus:ecdsa_curve_name:ecdsa_public: 
+      cc000b96a27b70b377c3048ef62d3e406141e1675a5965b47ef0fad0b0d7a4a23792f4b00154642d2d21990ca40c2989f39071290b8d499bdb57c109cf0919deb03b3e845c60313d3e946fbbbd11ef10a196212f2d9a580bd4c9215e4a9fed4a5ec8df1b3668ea207f02cd8d451a5584138357eb86aae99b1c01881bd8895041d85bbc1c0c1dcbc3ee98bb1db13fce04c91443692eab200a4e76527b9f886490f2c82e9bca5d945150f33646b91d4838d4f9a565c58adff2f290e2a8acea29347901c07505a20de156f3eca8d49303d91bd023445549e29fe28c82e0c368e042986d63ee47dfb9f8a7ce8823b4141c7848f30e7946464042ed61807bfb62ce5f: cc000_2ce5f_15dac1cdead42dfc8b46ec19d580d4d1
+      d543b45917fe2b7ecb8cbad92efb5eb66be0da5f1f5241a5659bad4094f877a8bdbe0a8bd42d349cfcd4d2a70dfcfd4e8cfc3be05f5ba135e688ede2914150c2cab4c9b57a975419ce04c606dda6c4946a92fc9dc5cbe69ba802734efdf438a5024f29f0ba9b35df89fd0bc4ab5143a9fb0c5877d7dffd310c7ef637c13cf7ba39f87b28e670008b4038629b195df91951739c2bf1f23e7733006615ca309c840811426c0c08bfd456b2bc3071d1362d3961281137c31f935fd1aee147179a01109173345ff159861fce77a2caa5997e72fca2c502b9d54c4632b22737ba761254dff18f9c96f9f98e63bfca5b595143f853dcf1363b48fe1ac756a54dea3ff9: d543b_a3ff9_06e335d63360decd1e53525c0cf269c0
