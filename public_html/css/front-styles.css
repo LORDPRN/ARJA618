@@ -1,3 +1,7 @@
+::selection {
+    background-color: #aaff0070;
+}
+
 header {
     z-index: 999;
     position: absolute;
@@ -9,7 +13,11 @@ header {
     align-items: center;
     padding: 15px 200px;
     transition: 0.5s ease;
-    /*background-color: rgb(0, 0, 0, .5);*/
+
+}
+
+header:hover {
+    background-color: rgb(0, 0, 0, .5);
 }
 
 header .brand {
@@ -18,6 +26,10 @@ header .brand {
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
+}
+
+header .brand:hover {
+    color: #aaff00c6;
 }
 
 header .navigation {
@@ -34,10 +46,14 @@ header .navigation .navigation-items a {
     transition: 0.3 ease;
 }
 
+header .navigation .navigation-items a:hover {
+    color: #aaff00;
+}
+
 header .navigation .navigation-items a:before {
     content: '';
     position: absolute;
-    background: white;
+    background: #aaff00;
     width: 0;
     height: 3px;
     bottom: 0;
@@ -50,10 +66,10 @@ header .navigation .navigation-items a:hover:before {
 }
 
 section {
-    padding: 100px 200px;
+    padding: 50px 50px;
 }
 
-header .arjalogo{
+header .arjalogo {
     width: 25px;
     margin-right: 10px;
 }
@@ -76,7 +92,7 @@ header .arjalogo{
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(3, 94, 251, 0.3);
+    background: rgba(0, 0, 0, 0.3);
 }
 
 .home .content {
@@ -95,9 +111,60 @@ header .arjalogo{
 }
 
 .home .content p {
-    margin-top: 20px;
-    margin-bottom: 65px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    text-align: center;
     font-size: 2rem;
+    text-shadow: 0 0 10px #09bc00;
+}
+
+.home .content .scrolldown {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.home .content .mouse-scroll {
+    width: 2.1em;
+    height: 4em;
+    border: solid 2px white;
+    border-radius: 30px;
+    position: relative;
+    transition: 0.3s ease;
+}
+
+.home .content .mouse-scroll:hover {
+    cursor: pointer;
+    background: #09bc00;
+    border: none;
+}
+
+.home .content .mouse-scroll::before {
+    content: '';
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background: white;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: scroll 2.5s infinite;
+}
+
+@keyframes scroll {
+    0% {
+        bottom: 70%;
+    }
+
+    50% {
+        bottom: 0%;
+    }
+
+    100% {
+        bottom: 70%;
+    }
 }
 
 .green-text {
@@ -106,9 +173,9 @@ header .arjalogo{
     text-stroke: 2px transparent;
     -webkit-animation: animateStroke 5s infinite alternate;
     animation: animateStroke 5s infinite alternate;
-    background: black;
     border-radius: 1.2rem;
     padding: 5px;
+    text-shadow: 0 0 10px #0dff0070;
 }
 
 @keyframes animateStroke {
@@ -116,10 +183,12 @@ header .arjalogo{
         -webkit-text-stroke: 2px #aaff00;
         text-stroke: 2px #aaff00;
     }
+
     50% {
         -webkit-text-stroke: 2px #00ffa2;
         text-stroke: 2px #00ffa2;
     }
+
     100% {
         -webkit-text-stroke: 2px #b7ff00;
         text-stroke: 2px #b7ff00;
@@ -137,8 +206,12 @@ header .arjalogo{
 
 .home .media-icons a {
     color: white;
-    font-size: 1.6rem;
+    font-size: 2rem;
     transition: 0.3s ease;
+}
+
+.home .media-icons a:hover {
+    text-shadow: 0 0 20px #0dff00;
 }
 
 .home .media-icons a:not(:last-child) {
@@ -160,6 +233,90 @@ header .arjalogo{
     object-fit: cover;
 }
 
+.bottom-wavy {
+    --mask:
+        radial-gradient(84.12px at 50% calc(100% - 114.00px), #000 99%, #0000 101%) calc(50% - 80px) 0/160px 100%,
+        radial-gradient(84.12px at 50% calc(100% + 74.00px), #0000 99%, #000 101%) 50% calc(100% - 40px)/160px 100% repeat-x;
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+}
+
+.both-wavy {
+    --mask:
+        radial-gradient(67.08px at 50% 90.00px, #000 99%, #0000 101%) calc(50% - 60px) 0/120px 51% repeat-x,
+        radial-gradient(67.08px at 50% -60px, #0000 99%, #000 101%) 50% 30px/120px calc(51% - 30px) repeat-x,
+        radial-gradient(67.08px at 50% calc(100% - 90.00px), #000 99%, #0000 101%) calc(50% - 60px) 100%/120px 51% repeat-x,
+        radial-gradient(67.08px at 50% calc(100% + 60.00px), #0000 99%, #000 101%) 50% calc(100% - 30px)/120px calc(51% - 30px) repeat-x;
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+}
+
+/*About section*/
+#about_img {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    max-width: 350px;
+}
+
+/*MILESTONE*/
+#milestone {
+    position: relative;
+    overflow: hidden;
+}
+
+#milestone .container .row {
+    height: 350px;
+    z-index: 1;
+}
+
+#milestone_video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -999;
+
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: -998;
+}
+
+/*TEAM*/
+#team .team-member {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#team .image {
+    width: 70%;
+
+}
+
+#team .team-member .team-names {
+    display: flex;
+    flex-direction: row;
+}
+
+#team .team-member .team-names h5{
+    margin-right: 50px;
+}
+
+#team{
+    clip-path: polygon(0 0,100% 0,100% calc(100% - 50px),50% 100%,0 calc(100% - 50px));
+}
+
+
 /*Responsive*/
 @media (max-width: 1040px) {
     header {
@@ -167,10 +324,11 @@ header .arjalogo{
     }
 
     section {
-        padding: 100px 20px;
+        padding: 50px 20px;
     }
 
     .home .media-icons {
+        bottom: 50px;
         right: 15px;
     }
 
@@ -230,5 +388,13 @@ header .arjalogo{
         background-size: 20px;
         background-position: center;
         transition: 0.3s ease;
+    }
+
+    .home .content h1 {
+        font-size: 5rem;
+    }
+
+    .home .content p {
+        font-size: 1.8rem;
     }
 }

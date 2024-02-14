@@ -226,14 +226,6 @@ text-align: center;}
     width: 90px;
 }
 
-
-#milestone {
-    background: linear-gradient(rgba(255, 77, 41, 0.85), rgba(255, 77, 41, 0.85)), url(../img/turtle.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
 #milestone h1,
 #milestone p {
     color: #fff;
