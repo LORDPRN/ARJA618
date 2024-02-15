@@ -34,7 +34,7 @@
                 <a href="#">Inicio</a>
                 <a href="#about">Quiénes somos</a>
                 <a href="#team">Equipo</a>
-                <a href="#">Portafolio</a>
+                <a href="#portfolio">Portafolio</a>
             </div>
         </div>
     </header>
@@ -50,7 +50,8 @@
             </div>
         </div>
         <div class="media-icons">
-            <a href="#"><i class='bx bx-envelope'></i></a>
+            <a href="#exampleModal"><i class='bx bx-envelope' data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"></i></a>
         </div>
     </section>
 
@@ -118,7 +119,7 @@
         </div>
         <div class="video-overlay"></div>
         <video autoplay muted loop id="milestone_video">
-            <source src="video/milestone_3.mp4" type="video/mp4">
+            <source src="video/milestone_2.mp4" type="video/mp4">
         </video>
     </section>
 
@@ -142,156 +143,111 @@
                     <h5>Arlin Valverde<br>Ing. Ambiental</h5>
                     <h5>Jhon Rodriguez<br>CEO</h5>
                 </div>
-
-
             </div>
         </div>
     </section>
     <!--PORTFOLIO-->
-    <!--
-    <section class="bg-light" id="reviews">
-
-        <div class="owl-theme owl-carousel reviews-slider container">
-            <div class="review">
-                <div class="person">
-                    <img src="img/team_1.jpg" alt="">
-                    <h5>Ralph Edwards</h5>
-                    <small>Market Development Manager</small>
+    <section id="portfolio">
+        <div id="videoCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="home">
+                        <video class="video-slide carousel-video" src="video/nota_celda1.mp4" autoplay muted loop
+                            controls></video>
+                    </div>
                 </div>
-                <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut quis, rem culpa labore voluptate
-                    ullam! In, nostrum. Dicta, vero nihil. Delectus minus vitae rerum voluptatum, excepturi incidunt ut,
-                    enim nam exercitationem optio ducimus!</h3>
-                <div class="stars">
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class="bx bxs-star-half"></i>
+                <div class="carousel-item">
+                    <div class="home">
+                        <video class="video-slide carousel-video" src="video/nota_celda2.mp4" autoplay muted loop
+                            controls></video>
+                    </div>
                 </div>
-                <i class='bx bxs-quote-alt-left'></i>
-            </div>
-            <div class="review">
-                <div class="person">
-                    <img src="img/team_2.jpg" alt="">
-                    <h5>Ralph Edwards</h5>
-                    <small>Market Development Manager</small>
+                <div class="carousel-item img-fluid">
+                    <div class="home">
+                        <img src="img/IMG-20231210-WA0000.jpg" class="carousel-image" style="object-fit: contain;">
+                    </div>
                 </div>
-                <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut quis, rem culpa labore voluptate
-                    ullam! In, nostrum. Dicta, vero nihil. Delectus minus vitae rerum voluptatum, excepturi incidunt ut,
-                    enim nam exercitationem optio ducimus!</h3>
-                <div class="stars">
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class="bx bxs-star-half"></i>
+                <div class="carousel-item img-fluid">
+                    <div class="home">
+                        <img src="img/IMG-20231210-WA0003.jpg" class="carousel-image" style="object-fit: contain;">
+                    </div>
                 </div>
-                <i class='bx bxs-quote-alt-left'></i>
-            </div>
-            <div class="review">
-                <div class="person">
-                    <img src="img/team_3.jpg" alt="">
-                    <h5>Ralph Edwards</h5>
-                    <small>Market Development Manager</small>
+                <div class="carousel-item img-fluid">
+                    <div class="home">
+                        <img src="img/IMG-20231210-WA0005.jpg" class="carousel-image" style="object-fit: contain;">
+                    </div>
                 </div>
-                <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut quis, rem culpa labore voluptate
-                    ullam! In, nostrum. Dicta, vero nihil. Delectus minus vitae rerum voluptatum, excepturi incidunt ut,
-                    enim nam exercitationem optio ducimus!</h3>
-                <div class="stars">
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class="bx bxs-star-half"></i>
+                <div class="carousel-item img-fluid">
+                    <div class="home">
+                        <img src="img/IMG-20231210-WA0006.jpg" class="carousel-image" style="object-fit: contain;">
+                    </div>
                 </div>
-                <i class='bx bxs-quote-alt-left'></i>
-            </div>
-        </div>
-    </section>
-
-    <section id="blog">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="intro">
-                        <h6>Blog</h6>
-                        <h1>Blog Posts</h1>
-                        <p class="mx-auto">Contrary to popular belief, Lorem Ipsum is not simply random text. It has
-                            roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old</p>
+                <div class="carousel-item img-fluid">
+                    <div class="home">
+                        <img src="img/IMG-20231210-WA0007.jpg" class="carousel-image" style="object-fit: contain;">
+                    </div>
+                </div>
+                <div class="carousel-item img-fluid">
+                    <div class="home">
+                        <img src="img/IMG-20231210-WA0008.jpg" class="carousel-image" style="object-fit: contain;">
+                    </div>
+                </div>
+                <div class="carousel-item img-fluid">
+                    <div class="home">
+                        <img src="img/IMG-20231210-WA0009.jpg" class="carousel-image" style="object-fit: contain;">
+                    </div>
+                </div>
+                <div class="carousel-item img-fluid">
+                    <div class="home">
+                        <img src="img/IMG-20231210-WA0011.jpg" class="carousel-image" style="object-fit: contain;">
+                    </div>
+                </div>
+                <div class="carousel-item img-fluid">
+                    <div class="home">
+                        <img src="img/IMG-20231210-WA0012.jpg" class="carousel-image" style="object-fit: contain;">
+                    </div>
+                </div>
+                <div class="carousel-item img-fluid">
+                    <div class="home">
+                        <img src="img/IMG-20231210-WA0014.jpg" class="carousel-image" style="object-fit: contain;">
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <article class="blog-post">
-                        <img src="img/project5.jpg" alt="">
-                        <a href="#" class="tag">Web Design</a>
-                        <div class="content">
-                            <small>01 Dec, 2022</small>
-                            <h5>Web Design trends in 2022</h5>
-                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
-                                piece of classical Latin literature from</p>
-                        </div>
-                    </article>
-                </div>
-                <div class="col-md-4">
-                    <article class="blog-post">
-                        <img src="img/project4.jpg" alt="">
-                        <a href="#" class="tag">Programming</a>
-                        <div class="content">
-                            <small>01 Dec, 2022</small>
-                            <h5>Web Design trends in 2022</h5>
-                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
-                                piece of classical Latin literature from</p>
-                        </div>
-                    </article>
-                </div>
-                <div class="col-md-4">
-                    <article class="blog-post">
-                        <img src="img/project2.jpg" alt="">
-                        <a href="#" class="tag">Marketing</a>
-                        <div class="content">
-                            <small>01 Dec, 2022</small>
-                            <h5>Web Design trends in 2022</h5>
-                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
-                                piece of classical Latin literature from</p>
-                        </div>
-                    </article>
-                </div>
-            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#videoCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#videoCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
     </section>
-    -->
-    <section style="    clip-path: polygon(0 0,50% 50px,100% 0,100% 100%,0 100%);
-    margin-top: -40px; background: black;">
-        <p>Abdiel</p>
-    </section>
+
+
     <footer>
-        <div class="footer-top text-center">
+        <div class="footer-top text-center" style="padding: 20px;">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-6 text-center">
                         <h4 style="margin: 0px;
-                        color: white;">ARJA Ingeniería e Hidrogeno</h4>
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                            classical Latin literature from</p>
+                        color: white; margin-bottom: 20px;">ARJA Ingeniería e Hidrogeno</h4>
                         <div class="col-auto social-icons">
-                            <a href="#"><i class='bx bxl-facebook'></i></a>
-                            <a href="#"><i class='bx bxl-twitter'></i></a>
-                            <a href="#"><i class='bx bxl-instagram'></i></a>
-                            <a href="#"><i class='bx bxl-pinterest'></i></a>
-                        </div>
-                        <div class="col-auto conditions-section">
-                            <a href="#">privacy</a>
-                            <a href="#">terms</a>
-                            <a href="#">disclaimer</i></a>
+                            <a href="#exampleModal"><i class='bx bx-envelope' data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="footer-bottom text-center">
-            <p class="mb-0">Copyright Dorb. 2024. Todos los derechos reservados</p>
+            <p class="mb-0">Copyright <strong>ARJAINGENIERIA</strong>. © 2024. Todos los derechos reservados</p>
+            <p class="mb-0">Desarrollado por: <a href="https://abdielarias.netlify.app/" style="text-decoration: none;">
+                    <img src="https://abdielarias.netlify.app/assets/logo-45a1e85f.svg" alt="Portafolio"
+                        style="width: 20px; height: 20px;"> AArias</a>
+                </a>
+            </p>
         </div>
     </footer>
 
@@ -304,13 +260,14 @@
                     <div class="container-fluid">
                         <div class="row gy-4">
                             <div class="col-lg-4 col-sm-12 bg-cover"
-                                style="background-image: url(img/c2.jpg); min-height:300px;">
+                                style="background-image: url(img/arjalogo.png); min-height:300px;">
                                 <div>
 
                                 </div>
                             </div>
                             <div class="col-lg-8">
-                                <form class="p-lg-5 col-12 row g-3">
+                                <form class="p-lg-5 col-12 row g-3" method="POST"
+                                    action="https://formspree.io/f/mbjnokgo">
                                     <div>
                                         <h1>Contactenos</h1>
                                         <p>Envíanos tus dudas e inquierudes y nos pondremos en contacto con ustedes tan
@@ -334,7 +291,7 @@
                                     <div class="col-12">
                                         <label for="exampleInputEmail1" class="form-label">Indicanos tus dudas e
                                             inquietudes.</label>
-                                        <textarea name="" placeholder="This is looking great and nice."
+                                        <textarea name="message" placeholder="This is looking great and nice."
                                             class="form-control" id="" rows="4"></textarea>
                                     </div>
 

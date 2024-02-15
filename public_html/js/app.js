@@ -41,14 +41,11 @@ $(document).ready(function () {
         }
     })
 
-    $('.reviews-slider').owlCarousel({
+    $('.portfolio-slider').owlCarousel({
         loop: true,
         nav: false,
         dots: true,
         smartSpeed: 900,
         items: 1,
-        margin: 24,
-        autoplay: true,
-        autoplayTimeout: 4000,
     })
 });
