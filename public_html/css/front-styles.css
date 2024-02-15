@@ -110,12 +110,14 @@ header .arjalogo {
     margin-bottom: 0px;
 }
 
-.home .content p {
+.home .content h6 {
+    color: white;
     margin-top: 50px;
     margin-bottom: 70px;
     text-align: center;
     font-size: 2rem;
-    text-shadow: 0 0 10px #09bc00;
+    font-weight: 400;
+    text-shadow: 0 0 10px #09bc0090;
 }
 
 .home .content .scrolldown {
@@ -299,17 +301,13 @@ header .arjalogo {
 }
 
 #team .image {
-    width: 70%;
-
+    min-width: 70%;
 }
 
 #team .team-member .team-names {
     display: flex;
     flex-direction: row;
-}
-
-#team .team-member .team-names h5{
-    margin-right: 50px;
+    align-content: space-between;
 }
 
 #team{
@@ -318,7 +316,7 @@ header .arjalogo {
 
 
 /*Responsive*/
-@media (max-width: 1040px) {
+@media (max-width: 1300px) {
     header {
         padding: 12px 20px;
     }
@@ -371,7 +369,15 @@ header .arjalogo {
         border-radius: 5px;
         box-shadow: 0 5px 25px rgb(1 1 1 / 20%);
     }
-
+    .menufill{
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        position: fixed;
+        right: 20px;
+        z-index: -1;
+    }
     .menu-btn {
         background: url(../img/menu.svg)no-repeat;
         background-size: 30px;
@@ -380,6 +386,9 @@ header .arjalogo {
         height: 40px;
         cursor: pointer;
         transition: 0.3 ease;
+        position: fixed;
+        right: 20px;
+        
     }
 
     .menu-btn.active {
@@ -388,13 +397,14 @@ header .arjalogo {
         background-size: 20px;
         background-position: center;
         transition: 0.3s ease;
+        right: 20px;
     }
 
     .home .content h1 {
-        font-size: 5rem;
+        font-size: 4rem;
     }
 
-    .home .content p {
-        font-size: 1.8rem;
+    .home .content h6 {
+        font-size: 1.3rem;
     }
 }
